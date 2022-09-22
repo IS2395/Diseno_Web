@@ -65,3 +65,21 @@ Agrega aqui el código de la página de Octavio Paz en HTML Y CSS
     <br>Los ojos
     <br>se cierran
     <br>Las palabras se abren.
+    <a href="https://www.google.com.mx/webhp?tab=rw">google</a>
+    <!-- ir a una pagina web, encima de la actual-->
+    <a href="https://www.google.com.mx/webhp?tab=rw" target="_blank">google</a>
+    <!-- target="_blank" ir a una pagina web, la abre en otra pestaña -->
+    <ol>
+        <li>primer elemento</li>
+        <li>segundo elemento</li>
+        <li>tercer elemento</li>
+        <li>cuarto elemento</li>
+    </ol>
+    <!-- ol lista ordenada -->
+    <ul>
+        <li>desorden</li>
+        <li>desorden</li>
+        <li>desorden</li>
+        <li>desorden</li>
+    </ul>
+    <!-- ul lista desordenada -->    
