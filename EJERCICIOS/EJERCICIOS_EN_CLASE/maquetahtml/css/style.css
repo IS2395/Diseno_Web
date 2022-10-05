@@ -1,18 +1,24 @@
+body{
+    background-color: #76CAB8;
+}
 header {
-background-color: #332E2E;
-}
-h1 {
-    color: #C7DCCD;
-}
-nav {
-    background-color: #C7DCCD;
-}
-section {
-    background-color: #109DD1;
-}
-aside {
-    background-color: #D01180;
-}
-footer {
-    background-color: yellow;
-}
+    background-color: #332E2E;
+    }
+    h1 {
+        color: #C7DCCD;
+    }
+    nav {
+        background-color: #C7DCCD;
+    }
+    section {
+        background-color: #109DD1;
+    }
+    aside {
+        background-color: #D01180;
+    }
+    footer {
+        background-color: yellow;
+    }
+    .centrado{
+        text-align: center;
+    }
