@@ -1,0 +1,22 @@
+/* Color de fondo */
+body{
+    background-color: pink;
+}
+/* Formato del titulo */
+h1{
+    text-shadow: 3px 3px 5px rgb(219, 16, 202);
+    /* primer dato arriba o abajo, segundo dato izquierda o derecha, tercer dato intensidad de la sombra, color de la sombra */
+    text-align: center;
+}
+/* Color de subtitulos */
+.violeta{
+    color: blueviolet;
+}
+/* Texto a la derecha */
+#derecha {
+text-align: right;
+}
+/* Color de subtitulos (fechas) */
+h5{
+    color: rgb(219, 16, 202);
+}
