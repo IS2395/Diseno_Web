@@ -1,22 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
 /* Color de fondo */
 body{
-    background-color: pink;
+    background: linear-gradient(pink, red, violet);
+    font-family: 'Roboto', sans-serif;
 }
 /* Formato del titulo */
 h1{
-    text-shadow: 3px 3px 5px rgb(219, 16, 202);
+    text-shadow: 3px 3px 5px rgb(138, 15, 97);
     /* primer dato arriba o abajo, segundo dato izquierda o derecha, tercer dato intensidad de la sombra, color de la sombra */
     text-align: center;
+    letter-spacing: 7px;
+    word-spacing: 7px;
+    border: 2px dotted blue;
+    
 }
 /* Color de subtitulos */
 .violeta{
     color: blueviolet;
 }
 /* Texto a la derecha */
-#derecha {
+.derecha {
 text-align: right;
+font-style: italic;
 }
 /* Color de subtitulos (fechas) */
 h5{
     color: rgb(219, 16, 202);
+}
+p{
+    font-weight: bold;
+}
+/* Formato div */
+div{
+    background-color: blueviolet;
+}
+.caja{
+    border: 5px solid black;
+    box-shadow: 3px 3px 7px rgb(138, 15, 97);
+}
+.punteado{
+    border: 5px dotted rgb(160, 143, 175);
 }
