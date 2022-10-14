@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    margin-left: 200px;
+    padding: 15px;
+}
+nav{
+    display: flex;
+    justify-content: right;
+}
+ul{
+    display: flex;
+    margin-right: 200px;
+}
+li{
+    list-style: none;
+    margin: 15px;
+}
+li:hover{
+    text-decoration: underline;
+}
+.fondo{
+    background: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+}
+.grande{
+    font-size: 80px;
+    color: #fff;
+    font-weight: bold;
+}
