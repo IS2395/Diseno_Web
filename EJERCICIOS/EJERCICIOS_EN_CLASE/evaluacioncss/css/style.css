@@ -2,8 +2,11 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
 .logo{
-    margin-left: 200px;
+    justify-content: left;
     padding: 15px;
 }
 nav{
@@ -11,8 +14,7 @@ nav{
     justify-content: right;
 }
 ul{
-    display: flex;
-    margin-right: 200px;
+    display: flex;    
 }
 li{
     list-style: none;
@@ -28,8 +30,31 @@ li:hover{
     background-position: center;
     height: 40vh;
 }
+.texto{
+    width: 60%;
+    text-align: right;
+}
+.mediano{
+    color:#fff;
+    font-size: 40px;
+    font-weight: 900;   
+}
+.delgado{
+    color:#fff;
+    font-size: 40px;
+    font-weight: 300;
+}
 .grande{
     font-size: 80px;
-    color: #fff;
+    color: #fff;    
+}
+.centrado{
+    text-align: center;
+}
+.rojo{
+    color: chocolate;
+}
+.negrita{
     font-weight: bold;
+    color: grey;
 }
