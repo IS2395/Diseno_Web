@@ -1,0 +1,43 @@
+.contenedor{
+    width: 30%;
+    height: 300vh;
+    background-color: aqua;
+    position: relative;
+}
+
+.caja1{
+    width: 10%;
+    height: 5vh;
+    background-color: blue;
+    position: relative; 
+    left: 200px;
+}    
+
+.caja2{
+    width: 10%;
+    height: 5vh;
+    background-color: rgb(255, 0, 0);    
+    position: absolute;
+    left: 100px;
+}
+
+.caja3{
+    width: 10%;
+    height: 5vh;
+    background-color: rgb(39, 44, 38);
+    position: absolute;
+    left: 300px;
+}
+
+.caja4{
+    width: 10%;
+    height: 5vh;
+    background-color: rgb(72, 255, 0);
+    position: relative;
+    left: 200px;
+}
+
+img{
+    position: fixed;
+    top: 5px;
+}
